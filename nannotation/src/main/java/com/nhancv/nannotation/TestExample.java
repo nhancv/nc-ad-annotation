@@ -1,4 +1,4 @@
-package com.nhancv.nannotation.libs;
+package com.nhancv.nannotation;
 
 
 /**

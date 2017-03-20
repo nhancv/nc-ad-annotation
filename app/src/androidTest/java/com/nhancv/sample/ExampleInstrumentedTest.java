@@ -1,4 +1,4 @@
-package com.nhancv.nannotation;
+package com.nhancv.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
