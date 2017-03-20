@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':nannotation')
+
+    compile 'com.squareup:javapoet:1.2.0'
+    compile 'com.google.auto.service:auto-service:1.0-rc2'
+
+    compile project(path: ':nannotation')
+}
